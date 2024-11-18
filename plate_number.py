@@ -1,7 +1,7 @@
 """
 generate plate numbers
 """
-
+python generate_special_plate.py --plate-number 湘999999 --double True --bg-color yellow
 import numpy as np
 import cv2, os
 from glob import glob
@@ -73,4 +73,4 @@ def board_bbox(polys):
     return [x1, y1, x2, y2]
 
 if __name__ == '__main__':
-    pass
+    pass 
